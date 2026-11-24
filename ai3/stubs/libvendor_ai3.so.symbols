@@ -1,0 +1,12 @@
+# Symbols ai3_bench calls from libvendor_ai3.so. Declared in the AI3
+# Programming Guide's API reference, chapter 6.1.
+vendor_ai3_dev_init
+vendor_ai3_dev_uninit
+vendor_ai3_dev_get
+vendor_ai3_net_open
+vendor_ai3_net_close
+vendor_ai3_net_start
+vendor_ai3_net_stop
+vendor_ai3_net_get
+vendor_ai3_net_set
+vendor_ai3_net_proc

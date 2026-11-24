@@ -1,0 +1,26 @@
+# Declared in code/hdal/include/hd_common.h. hd_gettime_us is not called by
+# ai3_bench but is one of libvendor_ai3.so's undefined symbols.
+hd_common_init
+hd_common_uninit
+hd_common_mem_init
+hd_common_mem_uninit
+hd_common_mem_get_block
+hd_common_mem_release_block
+hd_common_mem_blk2pa
+hd_common_mem_mmap
+hd_common_mem_munmap
+hd_common_mem_flush_cache
+hd_gettime_us
+# Declared in hdal/include/hd_videodec.h -- the hardware JPEG decoder, used by
+# lp-ocr's board/lpr_pipe (all exported by the board's /usr/lib/libhdal.so).
+hd_videodec_init
+hd_videodec_uninit
+hd_videodec_open
+hd_videodec_close
+hd_videodec_start
+hd_videodec_stop
+hd_videodec_get
+hd_videodec_set
+hd_videodec_push_in_buf
+hd_videodec_pull_out_buf
+hd_videodec_release_out_buf

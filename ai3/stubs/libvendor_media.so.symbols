@@ -1,0 +1,2 @@
+# libvendor_ai3.so leaves this undefined and calls it during net_proc.
+vendor_common_mem_cache_sync

@@ -1,0 +1,6 @@
+# vendor_ai_cpu1_get_engine is what the guide's net_open example passes as
+# plugin[AI3_PLUGIN_CPU]. The other two are what libvendor_ai3.so leaves
+# undefined and expects from here.
+vendor_ai_cpu1_get_engine
+vendor_ai_cpu_util_fixed2float
+vendor_ai_cpu_util_float2fixed
